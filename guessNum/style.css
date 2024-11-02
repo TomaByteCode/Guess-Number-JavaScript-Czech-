@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornsilk;
+    padding: 50px;
+}
+
+h1 {
+    color: gold;
+
+}
+
+button {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: transform 0.2s case, background-color 0.3s case;
+    border: none;
+}
+
+button:hover {
+    transform: scale(1.5);
+    background-color: rgb(10, 96, 10);
+}
+
+button:active {
+    background-color: rgb(11, 157, 11);
+}
+
+
